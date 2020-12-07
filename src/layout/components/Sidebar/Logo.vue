@@ -24,8 +24,8 @@ export default {
   },
   data() {
     return {
-      title: 'Vue Admin Template',
-      logo: 'https://wpimg.wallstcn.com/69a1c46c-eb1c-4b46-8bd4-e9e686ef5251.png'
+      title: 'Mogo-Admin',
+      logo: 'https://qingdao-mogo.oss-cn-beijing.aliyuncs.com/mogo.png'
     }
   }
 }
@@ -46,7 +46,7 @@ export default {
   width: 100%;
   height: 50px;
   line-height: 50px;
-  background: #2b2f3a;
+  background: #30333C;
   text-align: center;
   overflow: hidden;
 
@@ -55,10 +55,10 @@ export default {
     width: 100%;
 
     & .sidebar-logo {
-      width: 32px;
-      height: 32px;
+      width: 50px;
+      height: 50px;
       vertical-align: middle;
-      margin-right: 12px;
+      margin-right: 2px;
     }
 
     & .sidebar-title {
@@ -67,7 +67,7 @@ export default {
       color: #fff;
       font-weight: 600;
       line-height: 50px;
-      font-size: 14px;
+      font-size: 16px;
       font-family: Avenir, Helvetica Neue, Arial, Helvetica, sans-serif;
       vertical-align: middle;
     }
